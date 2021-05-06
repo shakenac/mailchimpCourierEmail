@@ -4,7 +4,9 @@ html,
 .body {
    background: #fff !important;
 }
-
+a {
+   text-decoration: underline;
+}
 p {
    hyphens: none;
    letter-spacing: .07em;
@@ -13,6 +15,7 @@ p {
 .dropcap {
    color: #ff831b !important;
    font-size: 18px;
+   font-weight: 700;
 }
 
 @media only screen and (max-width: #{$global-breakpoint}) {
@@ -44,5 +47,15 @@ p {
    .bold {
       font-weight: 700;
    }
+}
 
+
+///////// MAIN CONTENT
+.main-content {
+   img {
+      max-width: 235px;
+   }
+   p {
+      font-size: 16px;
+   }
 }

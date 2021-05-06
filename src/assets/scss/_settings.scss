@@ -86,9 +86,9 @@ $hr-width: $global-width;
 $hr-border: 1px solid $black;
 $hr-margin: 20px;
 $anchor-text-decoration: none;
-$anchor-color: $primary-color;
+$anchor-color: #ffb300;
 $anchor-color-visited: $anchor-color;
-$anchor-color-hover: darken($primary-color, 10%);
+$anchor-color-hover: darken($anchor-color, 10%);
 $anchor-color-active: $anchor-color-hover;
 $stat-font-size: 40px;
 
