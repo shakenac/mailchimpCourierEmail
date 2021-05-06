@@ -57,6 +57,10 @@ p {
 
 ///////// MAIN CONTENT
 .main-content {
+   max-width: 550px;
+   margin: 0 auto;
+   Margin: 0 auto;
+
    img {
       max-width: 235px;
    }
@@ -65,11 +69,11 @@ p {
    }
 }
 
-///////// MAIN CONTENT
+///////// GOODBYE
 .goodbye {
-   table {
-      width: 400px;
-   }
+   max-width: 500px !important;
+   margin: 0 auto;
+   Margin: 0 auto;
 
    p {
       font-weight: 700;
@@ -84,6 +88,30 @@ p {
    .goodbye {
       img {
          height: 19px !important;
+      }
+   }
+}
+
+
+
+///////// FOOTER
+
+.footer {
+   background: #fafafa;
+   background-color: #fafafa;
+   color: #656565;
+   .container {
+      background: #fafafa;
+      background-color: #fafafa;
+   }
+
+   .wrapper-inner {
+      img {
+         height: 24px;
+         width: 24px;
+      }
+      .terms-account {
+         font-size: 14px;
       }
    }
 }
