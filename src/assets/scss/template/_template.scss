@@ -64,3 +64,26 @@ p {
       font-size: 16px;
    }
 }
+
+///////// MAIN CONTENT
+.goodbye {
+   table {
+      width: 400px;
+   }
+
+   p {
+      font-weight: 700;
+      font-size: 18px;
+   }
+   img {
+      height: 19px;
+   }
+}
+
+@media only screen and (max-width: #{$global-breakpoint}) {
+   .goodbye {
+      img {
+         height: 19px !important;
+      }
+   }
+}
