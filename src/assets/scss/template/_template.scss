@@ -4,3 +4,40 @@ html,
 .body {
    background: #fff !important;
 }
+
+p {
+   hyphens: none;
+   letter-spacing: .07em;
+}
+
+.dropcap {
+   color: #ff831b !important;
+   font-size: 18px;
+}
+
+
+///////// HEADER
+.welcome {
+   img {
+      height: 28px;
+   }
+   p {
+      font-size: 18px;
+      letter-spacing: .06em;
+   }
+}
+
+
+///////// INTRO
+.intro {
+   img {
+      max-width: 155px;
+   }
+   p {
+      margin-bottom: 20px !important;
+   }
+   .bold {
+      font-weight: 700;
+   }
+
+}
