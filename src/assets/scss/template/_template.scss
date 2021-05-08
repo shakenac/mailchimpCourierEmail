@@ -105,7 +105,16 @@ p {
       background-color: #fafafa;
    }
 
+
+   th.columns {
+      a {
+         display: inline-block;
+         padding-left: 15px;
+         padding-right: 15px;
+      }
+   }
    .wrapper-inner {
+
       img {
          height: 24px;
          width: 24px;
